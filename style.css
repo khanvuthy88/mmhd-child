@@ -1,0 +1,29 @@
+/*
+Theme Name: mts_wordx-child
+Version: 1.0
+Description: A child theme of WordX by MyThemeShop
+Template: mts_wordx
+*/
+
+@import url("../mts_wordx/style.css");
+
+.movie_summary{
+	width: 100%;
+	position: relative;
+}
+.movie_summary img{
+	float: left;
+    margin-right: 15px;
+}
+.movie_summary h1.movie_title{
+	font-size: 18px;
+    margin-bottom: 5px;
+}
+.movie_summary ul{
+	margin:0px;
+	padding:0px;
+}
+.movie_summary li{
+	display: inline;
+    list-style: none;
+}
